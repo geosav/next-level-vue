@@ -267,6 +267,28 @@
       "date": "",
       "time": "",
       "attendees": []
+    },
+    {
+      "id": 9328249,
+      "user": {
+        "id": "abc123",
+        "name": "Adam"
+      },
+      "category": {
+        "isTrusted": true
+      },
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam"
+      },
+      "title": "yrtytr",
+      "description": "yrtyr",
+      "location": "ytryr",
+      "date": "2021-01-05T18:06:00.000Z",
+      "time": {
+        "isTrusted": true
+      },
+      "attendees": []
     }
   ]
 }

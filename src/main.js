@@ -10,6 +10,13 @@ import Vuelidate from 'vuelidate'
 
 Vue.use(Vuelidate)
 
+// Example of mixin which be included in every component
+// Vue.mixin({
+//   mounted() {
+//     console.log('I am mixed into every component.')
+//   }
+// })
+
 // Vue.component('BaseIcon', BaseIcon)
 
 Vue.config.productionTip = false

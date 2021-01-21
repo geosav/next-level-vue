@@ -1,8 +1,13 @@
 <template>
   <div>
     <label v-if="label">{{ label }}</label>
-    <select :value="value" @input="updateValue" v-bind="$attrs" v-on="$listeners">
-      <option v-for="option in options" :key="option">{{ option }}</option>
+    <select :value="value" @change="updateValue" v-bind="$attrs" v-on="$listeners">
+      <option
+        v-for="option in options"
+        :value="option"
+        :key="option.id"
+        :selected="option === value"
+      >{{ option }}</option>
     </select>
   </div>
 </template>
@@ -15,10 +20,6 @@ export default {
     options: {
       type: Array,
       required: true
-    },
-    label: {
-      type: String,
-      default: ''
     }
   }
 }

@@ -289,6 +289,24 @@
         "isTrusted": true
       },
       "attendees": []
+    },
+    {
+      "id": 2862482,
+      "user": {
+        "id": "abc123",
+        "name": "Adam"
+      },
+      "category": "food",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam"
+      },
+      "title": "111",
+      "description": "222",
+      "location": "333",
+      "date": "2021-01-07T09:20:00.000Z",
+      "time": "13:00",
+      "attendees": []
     }
   ]
 }
